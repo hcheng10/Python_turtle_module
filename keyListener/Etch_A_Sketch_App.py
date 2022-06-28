@@ -1,6 +1,14 @@
+# by press keyboard, we can move our turtle
+# w: move forward
+# s: move backward
+# a: turn turtle direction counter clockwise by 10 degree
+# d: turn turtle direction counter clockwise by 10 degree
+# c: clean screen and move turtle back to orgin
+
 from turtle import Turtle, Screen
 
 tim = Turtle()
+tim.shape("turtle")
 screen = Screen()
 
 def move_forwards():
